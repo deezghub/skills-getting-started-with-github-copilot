@@ -81,6 +81,46 @@ activities.update({
     }
 })
 
+# Additional sports, artistic, and intellectual activities
+activities.update({
+    "Volleyball Team": {
+        "description": "Competitive volleyball team focusing on skills and teamwork",
+        "schedule": "Mondays and Thursdays, 5:00 PM - 7:00 PM",
+        "max_participants": 20,
+        "participants": ["chris@mergington.edu"]
+    },
+    "Swimming Club": {
+        "description": "Laps, technique drills, and recreational swim time",
+        "schedule": "Wednesdays, 4:00 PM - 6:00 PM",
+        "max_participants": 25,
+        "participants": ["harper@mergington.edu"]
+    },
+    "Photography Club": {
+        "description": "Explore composition, lighting, and photo editing",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["zoe@mergington.edu"]
+    },
+    "Music Ensemble": {
+        "description": "Instrumental and vocal ensemble rehearsals and performances",
+        "schedule": "Tuesdays, 5:00 PM - 6:30 PM",
+        "max_participants": 30,
+        "participants": ["liam@mergington.edu"]
+    },
+    "Science Club": {
+        "description": "Hands-on experiments, demonstrations, and science fairs",
+        "schedule": "Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 20,
+        "participants": ["ava@mergington.edu"]
+    },
+    "Robotics Club": {
+        "description": "Build and program robots for competitions and learning",
+        "schedule": "Thursdays, 3:30 PM - 6:00 PM",
+        "max_participants": 18,
+        "participants": ["noah@mergington.edu"]
+    }
+})
+
 
 @app.get("/")
 def root():
